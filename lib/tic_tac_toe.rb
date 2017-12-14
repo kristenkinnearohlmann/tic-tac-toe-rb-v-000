@@ -136,11 +136,10 @@ def winner(board)
 end
 
 def play(board)
-  puts "Please enter 1-9:"
-  input = gets.strip
-
+  turn(board)
+      
   if over?(board)
-    puts "Game Over"
+
   else
     play(board)
   end
