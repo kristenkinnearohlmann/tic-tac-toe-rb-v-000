@@ -140,7 +140,7 @@ def play(board)
   input = gets.strip
 
   if over?(board)
-    puts "Game over"
+    puts "Game Over"
   else
     play(board)
   end
