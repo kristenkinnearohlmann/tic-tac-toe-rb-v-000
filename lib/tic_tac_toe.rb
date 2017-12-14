@@ -136,11 +136,11 @@ def winner(board)
 end
 
 def play(board)
-  turn(board)
-
-  if over?(board)
-    puts "Game Over"
-  else
-    play(board)
-  end
+  # turn(board)
+  # 
+  # if over?(board)
+  #   puts "Game Over"
+  # else
+  #   play(board)
+  # end
 end
