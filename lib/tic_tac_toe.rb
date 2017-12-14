@@ -147,6 +147,5 @@ def play(board)
     puts "Cat\'s Game!"
   else
   end
-# stuff that comes later about win/draw
 
 end
