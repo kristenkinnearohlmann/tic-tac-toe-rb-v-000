@@ -141,6 +141,6 @@ def play(board)
   if over?(board)
     #  puts "Game Over"
   else
-    #  play(board)
+     play(board)
   end
 end
