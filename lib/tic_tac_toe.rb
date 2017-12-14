@@ -138,4 +138,10 @@ end
 def play(board)
   puts "Please enter 1-9:"
   input = gets.strip
+
+  if over?(board)
+
+  else
+    play(board)
+  end
 end
