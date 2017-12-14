@@ -138,9 +138,10 @@ end
 def play(board)
   turn(board)
 
-  if over?(board)
-    #  puts "Game Over"
-  else
-     play(board)
+  while !over?(board)
+    play(board)
   end
+
+# stuff that comes later about win/draw
+
 end
