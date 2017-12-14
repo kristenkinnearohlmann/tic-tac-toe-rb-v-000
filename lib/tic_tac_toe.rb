@@ -140,7 +140,7 @@ def play(board)
   input = gets.strip
 
   if over?(board)
-
+    break
   else
     play(board)
   end
