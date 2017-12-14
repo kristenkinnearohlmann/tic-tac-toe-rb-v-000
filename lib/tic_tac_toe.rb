@@ -9,8 +9,6 @@ WIN_COMBINATIONS = [
   [2,4,6] # right diagonal
 ]
 
-board = [" "," "," "," "," "," "," "," "," "]
-
 def display_board(board)
   separator_row = "-----------"
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
