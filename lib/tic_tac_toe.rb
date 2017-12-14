@@ -140,7 +140,7 @@ def play(board)
 
   puts over?(board)
   if over?(board)
-  #   puts "Game Over"
+     puts "Game Over"
   else
      play(board)
   end
