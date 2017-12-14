@@ -138,12 +138,9 @@ end
 def play(board)
   turn(board)
 
-  puts over?(board)
   if over?(board)
      puts "Game Over"
   else
      play(board)
   end
 end
-
-puts play(board)
