@@ -136,10 +136,10 @@ def winner(board)
 end
 
 def play(board)
-  turn(board)
+  # turn(board)
 
   while !over?(board)
-    play(board)
+    turn(board)
   end
 
 # stuff that comes later about win/draw
