@@ -136,9 +136,9 @@ def winner(board)
 end
 
 def play(board)
-    puts turn(board)
   turn(board)
-  #
+
+  puts over?(board)
   if over?(board)
   #   puts "Game Over"
   else
